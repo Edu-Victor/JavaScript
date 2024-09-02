@@ -33,6 +33,7 @@ function aVeryBigSum(ar) {
 }
 
 function main() {
+    
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
 
     const arCount = parseInt(readLine().trim(), 10);
